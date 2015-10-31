@@ -1,6 +1,6 @@
 from django.conf import settings
-from django.utils.importlib import import_module
 
+from ratelimit.compat import import_module
 from ratelimit.exceptions import Ratelimited
 
 
